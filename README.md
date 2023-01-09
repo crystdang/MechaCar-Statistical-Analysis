@@ -64,4 +64,5 @@ The t-test performed for lot 3 did provide sufficient evidence to reject the nul
 As the MechaCar is a new prototype, the statistical study for safety rating would be of great interest to a consumer. The metric that should be tested is whether all wheel drive is necessary and can be predicted from the MechaCar_mpg.csv dataset using a multiple linear regression model.
 
 H0 : all of the independent variables will be statistically likely to provide random amount of variance to the linear model
+
 Ha : one or more independent variable will be statistically unlikely to provide random amount of variance to the linear model
