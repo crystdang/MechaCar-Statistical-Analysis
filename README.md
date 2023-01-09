@@ -28,17 +28,22 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## Part 3:
 ## T-Tests on Suspension Coils
 
-briefly summarize your interpretation and findings for the t-test results.
+T-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. Only lot 3 proved the two means are statistically different.
 
-*Below is an image of the t.test output:*
+
+The t-test performed for all lots did not provide sufficient evidence to reject the null hypothesis as the probability value is higher than a normal significance level at 0.06.
+*Below is an image of the t.test output for all lots:*
 ![This is an image](https://github.com/crystdang/MechaCar-Statistical-Analysis/blob/main/Images/t.test_All.png)
 
+The t-test performed for lot 1 did not provide sufficient evidence to reject the null hypothesis as the probability value is higher than a normal significance level at 1.
 *Below is an image of the Lot 1 t.test output:*
 ![This is an image](https://github.com/crystdang/MechaCar-Statistical-Analysis/blob/main/Images/t.test_Lot1.png)
 
+The t-test performed for lot 2 did not provide sufficient evidence to reject the null hypothesis as the probability value is higher than a normal significance level at 0.6.
 *Below is an image of the Lot 2 t.test output:*
 ![This is an image](https://github.com/crystdang/MechaCar-Statistical-Analysis/blob/main/Images/t.test_Lot2.png)
 
+The t-test performed for lot 3 did provide sufficient evidence to reject the null hypothesis as the probability value is lower than a normal significance level at 0.4.
 *Below is an image of the Lot 3 t.test output:*
 ![This is an image](https://github.com/crystdang/MechaCar-Statistical-Analysis/blob/main/Images/t.test_Lot3.png)
 
